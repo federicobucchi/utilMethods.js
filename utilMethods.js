@@ -1,4 +1,4 @@
-(function() {
+var utilMethods = (function() {
   var self;
   var constructor;
   var validateData;
@@ -142,7 +142,7 @@
       if (self.error.triggered) {
         console.error('from(): ' + self.error.message);
       }
-  	},
+    },
 
     capitalize: function(string) {
       if (validateData.isString(string)) {
@@ -183,5 +183,5 @@
 
   };
 
-  utilMethods = new constructor();
+  return new constructor();
 })();
