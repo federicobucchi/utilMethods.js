@@ -1,0 +1,16 @@
+{
+  "name": "utilmethods",
+  "version": "0.0.1",
+  "description": "JS Library",
+  "main": "utilMethods.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/federicobucchi/utilMethods.js.git"
+  },
+  "author": "Federico Bucchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/federicobucchi/utilMethods.js/issues"
+  },
+  "homepage": "https://github.com/federicobucchi/utilMethods.js#readme"
+}
